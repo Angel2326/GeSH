@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:geekshop_git" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:lesson_1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="274ae74f-1ee4-49f6-9b92-188421bf8cdf" name="Default Changelist" comment="lesson1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rUa8GXAd7QSLKiLCDsG9nGM5FY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="geekshop" type="PythonConfigurationType" factoryName="Python">
+      <module name="geekshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\GeekBrains\Django\geekshop-server\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="274ae74f-1ee4-49f6-9b92-188421bf8cdf" name="Default Changelist" comment="" />
+      <created>1619032962625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619032962625</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lesson1">
+      <created>1619088102542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619088102542</updated>
+    </task>
+    <task id="LOCAL-00002" summary="les_1">
+      <created>1619094584879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619094584879</updated>
+    </task>
+    <task id="LOCAL-00003" summary="les_1">
+      <created>1619094598508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619094598508</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson_1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson1" />
+    <MESSAGE value="les_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="les_1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="211" key="#Notifications" timestamp="1619079352240">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="491" y="211" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1619079352240" />
+    <state x="170" y="7" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619035963303">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="170" y="7" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1619035963303" />
+    <state x="533" y="129" key="FileChooserDialogImpl" timestamp="1619090272819">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="533" y="129" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1619090272819" />
+    <state x="548" y="244" key="Github.ShareDialog" timestamp="1619088982004">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="548" y="244" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1619088982004" />
+    <state x="397" y="85" key="Github.UntrackedFilesDialog" timestamp="1619082294219">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="397" y="85" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1619082294219" />
+    <state width="609" height="76" key="GridCell.Tab.0.bottom" timestamp="1619089924291">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="609" height="76" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1619089924291" />
+    <state width="609" height="76" key="GridCell.Tab.0.center" timestamp="1619089924291">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="609" height="76" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1619089924291" />
+    <state width="609" height="76" key="GridCell.Tab.0.left" timestamp="1619089924291">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="609" height="76" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1619089924291" />
+    <state width="609" height="76" key="GridCell.Tab.0.right" timestamp="1619089924291">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="609" height="76" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1619089924291" />
+    <state x="74" y="67" key="MergeDialog" timestamp="1619094569411">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="74" y="67" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1619094569411" />
+    <state x="266" y="141" key="MultipleFileMergeDialog" timestamp="1619094569421">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="266" y="141" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1619094569421" />
+    <state x="180" y="0" key="SettingsEditor" timestamp="1619079685685">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="180" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1619079685685" />
+    <state x="475" y="293" key="VCS.ChangelistChooser" timestamp="1619089204998">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="475" y="293" key="VCS.ChangelistChooser/0.0.1366.738@0.0.1366.738" timestamp="1619089204998" />
+    <state x="220" y="112" key="Vcs.Push.Dialog.v2" timestamp="1619090207748">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="220" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1619090207748" />
+    <state x="428" y="281" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1619087869691">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="428" y="281" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.738@0.0.1366.738" timestamp="1619087869691" />
+  </component>
+</project>
