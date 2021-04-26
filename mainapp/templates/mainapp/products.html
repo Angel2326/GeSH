@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+{% load static %}
 <html lang="en">
 
 <head>
@@ -11,10 +13,10 @@
     <title>{{ title|capfirst  }} {% now "jS F Y H:i" %}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/static/css/products.css" rel="stylesheet">
+    <link href="{% static 'css/products.css' %}" rel="stylesheet">
 
 </head>
 
@@ -99,7 +101,7 @@
                     <div class="card h-100">
                         <a href="#">
                             <img class="card-img-top"
-                                 src='/' {{ product.pic|capfirst }} alt="">
+                                 src={{ product.pic }} alt="">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title">
@@ -109,6 +111,9 @@
                             <p class="card-text">
                                 {{ product.description }}
                             </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-outline-success">Отправить в корзину</button>
                         </div>
                     </div>
                 </div>
