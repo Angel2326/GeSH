@@ -1,7 +1,7 @@
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-from django.contrib.auth.models import  AbstractUser
 
 class New_user(AbstractUser):
-    image = models.ImageField(upload_to='users_mages', blank=True)
+    image = models.ImageField(upload_to='users_image', blank=True)
 # Create your models here.
