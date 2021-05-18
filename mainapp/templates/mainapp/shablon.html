@@ -39,19 +39,7 @@
                 </li>
                 {% if user.is_authenticated %}
                  <li class="nav-item">
-<<<<<<< Updated upstream
-                    <a class="nav-link" href="auth/profile.html">{{ user.username }}
-=======
-<<<<<<< Updated upstream
-                    <a class="nav-link" href="auth/profile.html">{{ user.username }}
-=======
-<<<<<<< Updated upstream
-                    <a class="nav-link" href="auth/profile.html">{{ user.username }}
-=======
                     <a class="nav-link" href="{% url 'users:profile' %}">{{ user.username }}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
                         <i class="fas fa-user-circle"></i>
                     </a>
                 </li>
@@ -62,35 +50,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'users:logout' %}">Выйти <i class="fas fa-sign-out-alt"></i></a>
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
->>>>>>> Stashed changes
                 </li>
-
-                {% else %}
-
-                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'users:login' %}">Войти <i class="fas fa-sign-in-alt"></i></a>
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-                </li>
-                {% endif%}
-
-
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
 
                 {% else %}
 
@@ -100,8 +60,6 @@
                 {% endif%}
 
 
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
             </ul>
         </div>
@@ -115,6 +73,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="{%  static 'vendor/jquery/jquery.min.js' %}"></script>
 <script src="{%  static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{%  static 'js/basket.js' %}"></script>
 
 <!-- FontAwesome script -->
 <script src="{%  static 'vendor/fontawesome/fontawesome-icons.js'%}" crossorigin="anonymous"></script>

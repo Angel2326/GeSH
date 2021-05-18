@@ -1,18 +1,3 @@
-<<<<<<< Updated upstream
-from django.shortcuts import render
-
-# Create your views here.
-=======
-<<<<<<< Updated upstream
-from django.shortcuts import render
-
-# Create your views here.
-=======
-<<<<<<< Updated upstream
-from django.shortcuts import render
-
-# Create your views here.
-=======
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.shortcuts import HttpResponseRedirect
@@ -56,6 +41,3 @@ def basket_edit(request, id, quantity):
         context = {'baskets': baskets}
         result = render_to_string('basketapp/basket.html', context)
         return JsonResponse({'result': result})
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
