@@ -1,0 +1,122 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+{%if baskets%}
+
+
+
+<div class="col-lg-5">
+            <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+                Корзина <span class="badge badge-secondary badge-pill">3</span>
+            </h4>
+            {% for basket in baskets %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Product name</h5>
+                    <p class="card-text">Product description</p>
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+=======
+<div class="basket_list">
+    {% if baskets %}
+        <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+            Корзина <span class="badge badge-secondary badge-pill">{{ baskets.0.total_quantity }}</span>
+        </h4>
+        {% for basket in baskets %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{ basket.product.name }}</h5>
+                    <p class="card-text">{{ basket.product.description }}</p>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-light">
+                        <div class="row text-center">
+                            <div class="col-lg-4">
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+                                <input name="basketID" type="number" class="form-control"
+                                       value="1" min="0">
+                            </div>
+                            <div class="col-lg-4">2 390 руб.</div>
+                            <div class="col-lg-4">
+                                <a href="#">
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+=======
+                                <input name="{{ basket.id }}" type="number" class="form-control"
+                                       value="{{ basket.quantity }}" min="0">
+                            </div>
+                            <div class="col-lg-4">{{ basket.sum }} руб.</div>
+                            <div class="col-lg-4">
+                                <a href="{% url 'baskets:basket_remove' basket.id %}">
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+            {% endfor %}
+            <div class="card mb-3">
+                <div class="card-footer">
+                    <p class="float-left">Итого</p>
+                    <h4 class="float-right">2 390 руб.</h4>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success btn-lg float-right">Оформить</button>
+        </div>
+{% else %}
+<h4 class="mt-3 mb-3 text-center">
+    Корзина пуста
+</h4>
+<<<<<<< Updated upstream
+{% endif %}
+=======
+<<<<<<< Updated upstream
+{% endif %}
+=======
+{% endif %}
+=======
+        {% endfor %}
+        <div class="card mb-3">
+            <div class="card-footer">
+                <p class="float-left">Итого</p>
+                <h4 class="float-right">{{ baskets.0.total_sum }} руб.</h4>
+            </div>
+        </div>
+        <button type="button" class="btn btn-success btn-lg float-right">Оформить</button>
+    {% else %}
+        <h4 class="mt-3 mb-3 text-center">
+            Корзина пуста
+        </h4>
+    {% endif %}
+</div>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -39,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mainapp',
+    'authapp',
+    'basketapp',
+
 ]
 
 MIDDLEWARE = [
@@ -105,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
@@ -124,8 +128,24 @@ STATICFILES_DIRS = (BASE_DIR / 'static',)
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = (BASE_DIR / 'products_images',)
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media',)
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+<<<<<<< Updated upstream
+AUTH_USER_MODEL = 'authapp.New_user'
+=======
+<<<<<<< Updated upstream
+AUTH_USER_MODEL = 'authapp.New_user'
+=======
+<<<<<<< Updated upstream
+AUTH_USER_MODEL = 'authapp.New_user'
+=======
+AUTH_USER_MODEL = 'authapp.New_user'
+
+LOGIN_URL = '/users/login/'
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
