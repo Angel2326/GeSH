@@ -1,31 +1,10 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
 from django.contrib.auth.decorators import login_required
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 from django.contrib import auth, messages
 from django.shortcuts import render, HttpResponseRedirect
 from django.urls import reverse
 
 from authapp.forms import New_userLoginForm, UserRegisterForm, UserProfileForm
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< Updated upstream
-
-=======
 from basketapp.models import Basket
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
 def login(request):
     if request.method == 'POST':
@@ -59,19 +38,7 @@ def register(request):
     context = {'title': 'GeekShop - Регистрация', 'form': form}
     return render(request, 'authapp/register.html', context)
 
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< Updated upstream
-
-=======
 @login_required
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 def profile(request):
     if request.method == 'POST':
         form = UserProfileForm(data=request.POST, files=request.FILES, instance=request.user)
@@ -80,23 +47,13 @@ def profile(request):
             return HttpResponseRedirect(reverse('users:profile'))
     else:
         form = UserProfileForm(instance=request.user)
-<<<<<<< Updated upstream
-    context = {'title': 'Geekshop - Личный Кабинет', 'form': form}
-=======
-<<<<<<< Updated upstream
-    context = {'title': 'Geekshop - Личный Кабинет', 'form': form}
-=======
-<<<<<<< Updated upstream
-    context = {'title': 'Geekshop - Личный Кабинет', 'form': form}
-=======
+
     context = {
         'title': 'Geekshop - Личный Кабинет',
         'form': form,
-        'baskets': Basket.objects.all(),
+        'baskets': Basket.objects.filter(user=request.user),
+
     }
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     return render(request, 'authapp/profile.html', context)
 
 
