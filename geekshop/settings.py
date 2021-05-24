@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'mainapp',
     'authapp',
     'basketapp',
+    'adminapp',
 
 ]
 
@@ -134,18 +135,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media',)
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-<<<<<<< Updated upstream
-AUTH_USER_MODEL = 'authapp.New_user'
-=======
-<<<<<<< Updated upstream
-AUTH_USER_MODEL = 'authapp.New_user'
-=======
-<<<<<<< Updated upstream
-AUTH_USER_MODEL = 'authapp.New_user'
-=======
 AUTH_USER_MODEL = 'authapp.New_user'
 
 LOGIN_URL = '/users/login/'
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
